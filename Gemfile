@@ -18,6 +18,14 @@ gem 'jbuilder',                   '2.9.1'
 gem 'bootsnap',                   '1.4.5', require: false
 gem 'factory_bot',                '6.1.0'
 gem 'factory_bot_rails',          '6.1.0'
+gem 'opentelemetry-instrumentation-all'
+gem 'opentelemetry-sdk'
+gem 'opentelemetry-api'
+gem 'opentelemetry-exporter-otlp'
+gem 'opentelemetry-exporter-jaeger'
+gem 'prometheus_exporter'
+gem 'lograge', '~> 0.11.2'
+gem 'httplog'
 
 group :development, :test do
   # gem 'debase'
